@@ -1,5 +1,5 @@
-# harbor ownership
+# Harbor ownership
 
-No payout or wallet code is in this repository. `README.md` is unchanged.
+Harbor checks public Solana route-proof memos. It does not pay, mint, or hold signing keys. Conduit's optional Solana adapter writes route-proof memos.
 
-Harbor stays out of the first software loop. Contract authority is conduit `contracts/` on `cursor/wave-0-contract-freeze-90fb`, package version `wave0.2`. Do not copy those schemas here.
+Conduit `contracts/` is the wire contract authority. Harbor does not copy those schemas.
