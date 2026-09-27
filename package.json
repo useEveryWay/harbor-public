@@ -1,0 +1,14 @@
+{
+  "name": "harbor",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Read-only checker for public Solana route-proof memos. Does not pay, mint, or hold keys.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.14"
+  },
+  "scripts": {
+    "test": "node --test test/check-route-proof-memo.test.mjs",
+    "check-memo": "node scripts/check-route-proof-memo.mjs"
+  }
+}
